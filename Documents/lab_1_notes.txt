@@ -1,0 +1,67 @@
+
+
+x(t) == water level at time t
+d/dt x(t) - effect of pump sending in water
+	  - effect of drains taking out water
+ = (pumped volum per unit time/A) - uValve X a/A
+(pumped volum per unit time/A) - volume of water sent in by the pump over this duration
+uValve X a/A - volum of water drained through the valves over the same duration.
+
+(1/2ρV^2level) + ρg ×(x(t) + d) = 1/2ρv^2valve.
+ --> v^2 = V^2 + 2g(x(t)+d)
+ --> v = sqrt(2g(x(t)+d)/(1-a^2/A^2))
+
+53.8 - 34 
+
+Arial : 1211 cm
+H: 64.5 cm
+Bredde: 35 cm
+Lengde: 34.6 cm
+d = 9
+Volum: 78 109,5 cm^3
+
+
+
+1211 * 53.8 = 65 151,8 cm^3
+1211 * 34 = 41 174 cm^3
+
+65 151,8 - 41 174 = 23 977,8 cm^3
+
+
+K = sqrt(9 + 53.8) - sqrt(9 + 34) / (91) = 0.01516  
+a = (0.0151 * 1211)/sqrt(2*9.81) = 4.128
+
+K = sqrt(9 + 65 151,8) - sqrt(9 + 41 174) / (91) = 0.1958  
+a = (0.1958 * 1211)/sqrt(2*9.81) = 53.53
+
+Medium: 1:55:52
+High: 3:17:82
+High-medium: 1:31.69
+
+Max: 3:47 --> 227 sek --> 54 cm 
+Min: 5:18 --> 318 sek --> 15 cm
+
+
+K = sqrt(9 + 54) - sqrt(9 + 15) / (-91) = -0.033 
+
+
+7,937 - 4.9 / -91 = - 0.033
+a = (-0.033 * 1211) / sqrt(2*9.81)
+a = (-40,42) / 4.43 = -9.126
+
+
+w_25: 22,5 cm
+w_0: 1:30 14,5cm
+K = sqrt(0.08 + 0.225) - sqrt(0.08 + 0.145) / (90)
+k = 0.000865
+a = (0.000865 * 0.119025) / sqrt(2*9.81) = 0.00002326
+
+
+
+
+
+v = sqrt(2g(x(t)+d)/(1-a^2/A^2))
+ --> sqrt(2*9.81(34+9)/(1- -6.6^2/1211^2)) =
+ --> 29,04/(0.9999) =29,04
+
+

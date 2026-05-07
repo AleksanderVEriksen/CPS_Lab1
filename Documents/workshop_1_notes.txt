@@ -1,0 +1,26 @@
+How does the system behaves?
+
+Heart
+ECG data - electrical activity of the heart.  P,Q,R,S,T
+
+Pacemaker
+- Accelerometer sensor - sense motion
+- QT-based sensor - Time for venctricle depolarization and repolarization
+- QTIs are extracted from the pacemaker electrogram, electrical signal recorded by the electrode.
+ 
+adaptive heart rate- Blending algorithm of accelerometer and QTI sensor.
+- Exploits both sensors
+- Accelerometer is quick response but low accuracy
+- QTI has slow response but high accuracy
+	- Physical and mental stress shortens the QTI
+- Natural relationship between the QTI and HR so with a regression function it can predict an adequate pacing rate.
+	- Syntetic QTIs that reflect the state of the heart model simulation.
+	- Synthetic accelerometer signals, either offline recordings or configured to reproduce specific physical activities.
+	
+Case 1:  High heart rate, but does not do activity and is calm.
+	QTI interval are shortened, but no output from accelerometer.
+	Blending algorithm will look at the readings and estimate a lower heart rate based on QTI signals.
+	It will then send the adequate rate to the pacemaker to the heart.
+
+
+
